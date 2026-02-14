@@ -22,7 +22,7 @@ PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/go/bin
 DESC="Transfersh Web server"
 NAME=transfersh
 DAEMON="/opt/transfer.sh/main"
-DAEMON_ARGS="--port 80 --temp /tmp/"
+DAEMON_ARGS="--port 8888 --temp /tmp/"
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 
